@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background:  #000000;
+}
+
+.banner {
+    background-color: #02005f;
+    padding: 20px 0;
+    width: 100%;
+    transition: top 0.8s ease;
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #8c28ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title{
+    padding-left: 30%;
+}
+
+.title, .buttons button{
+    color: #a928ff;
+    margin-right: 20px;
+    font-family: Monaco, monospace;
+}
+
+
+.buttons button {
+    background-color: transparent;
+    border: 1px solid #006dac;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    text-align: center;
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info#t1{
+    width: 300px;
+}
+
+.info#t2{
+    width: 380px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h2{
+    color:  #a928ff;
+    font-family: Monaco, monospace;
+}
+
+p {
+    color: #000000;
+}
+
+.enlaces{
+    font-size: 150%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.enlaces ul a{
+    border-radius: 20px;
+    text-decoration:none ;
+    color: rgb(255, 255, 255);
+    padding:20px;
+    display: center;
+}
+
+.enlaces ul {
+    display: inline-block;
+    text-align:center ;
+}
+
+.enlaces ul a:hover{
+    background-color: rgb(10, 0, 146);
+}
+
+.logo{
+    height: 150px; 
+    width: auto;
+}
+
+.footer p {
+    font-size: 15px;
+    color:  #a928ff;
+}
+
+footer {
+    background-color:  #02005f;
+    padding: 10px 0;
+    text-align: center;
+}
